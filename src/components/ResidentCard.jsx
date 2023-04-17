@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 const residentStatus = {
    Alive: 'bg-green-500',
    Dead: 'bg-red-500',
-   unknown: 'bg-gray-500'
+   unknown: 'hidden'
 }
 
 const ResidentCard = ({resident}) => {
@@ -32,7 +32,7 @@ const ResidentCard = ({resident}) => {
 
       <section className='p-4 grid gap-2 border-t-2 border-green-500'>
          <h3 className='text-center text-white font-medium'>{residentInfo?.name}</h3>
-         <ul>
+         <ul className='sm:grid justify-center'>
             <li className='flex justify-evenly'>
                <span className='text-[#bfbfbf]/60'>Species</span>
                <span className='text-white '>{residentInfo?.species}</span>

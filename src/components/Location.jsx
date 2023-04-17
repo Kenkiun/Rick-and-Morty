@@ -8,11 +8,11 @@ const Location = ({location}) => {
 
     <section className='text-white text-center grid gap-8'>
 
-      <h2 className='text-2xl font-medium'>{location?.name}</h2>
-      <ul className='sm:flex justify-evenly'>
-         <li className='font-light text-base'><span className='text-xs font-medium'>Type:</span> {location?.type}</li>
-         <li className='font-light text-base'><span className='text-xs font-medium'>Dimension:</span> {location?.dimension}</li>
-         <li className='font-light text-base'><span className='text-xs font-medium'>Population:</span> {location?.residents.length}</li>
+      <h2 className='text-[27px] font-medium'>{location?.name}</h2>
+      <ul className='sm:flex justify-center gap-20'>
+         <li className='font-light text-base'><span className='text-xs font-medium px-2'>Type:</span>  {location?.type}</li>
+         <li className='font-light text-base'><span className='text-xs font-medium px-2'>Dimension:</span> {location?.dimension}</li>
+         <li className='font-light text-base'><span className='text-xs font-medium px-2'>Population:</span>     {location?.residents.length}</li>
       </ul>
 
     </section>
