@@ -43,7 +43,7 @@ function App() {
 
       <form onSubmit={handleSubmit} className='grid place-content-center mb-[60px]'>
         <div className='mb-8 border-[2px] border-green-500'>
-          <input id='locationId' placeholder='Type a location Id...' type="text" className='w-[166px] sm:w-[200px] bg-slate-800/10 text-white'/>
+          <input id='locationId' placeholder='Type a location Id...' type="text" className='w-[168px] sm:w-[200px] bg-slate-800/10 text-white'/>
           <button className='bg-green-500 border-green-500 h-[24px] w-[50px] text-center'><i className='bx bx-search'></i></button>
         </div>
 
