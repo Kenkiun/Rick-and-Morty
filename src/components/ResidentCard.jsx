@@ -31,7 +31,7 @@ const ResidentCard = ({resident}) => {
       </div>
 
       <section className='p-4 grid gap-2 border-t-2 border-green-500'>
-         <h3 className='text-center text-white font-medium'>{residentInfo?.name}</h3>
+         <h3 className='text-center text-white font-medium text-lg'>{residentInfo?.name}</h3>
          <ul className='sm:grid justify-center'>
             <li className='flex justify-center gap-4'>
                <span className='text-[#bfbfbf]/60'>Species</span>
