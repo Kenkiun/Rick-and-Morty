@@ -41,9 +41,9 @@ const ResidentCard = ({resident}) => {
                <span className='text-[#bfbfbf]/60'>Origin</span>
                <span className='text-white '>{residentInfo?.origin.name}</span>
             </li>
-            <li className='flex justify-evenly'>
+            <li className='flex justify-evenly gap-3'>
                <span className='text-[#bfbfbf]/60'>Times appeared</span>
-               <span className='text-white '>{residentInfo?.episode.length}</span>
+               <span className='text-white'>{residentInfo?.episode.length}</span>
             </li>
          </ul>
       </section>
